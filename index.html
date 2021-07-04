@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>game</title>
+</head>
+<body>
+        <span class="intro"></span>
+            <div class="intro__inner" id="intro">
+                    <header class="header" id="header">
+                        <div class="header__inner">
+                            <div class="header__left">
+                                <img class="header__logo" src="img/logo.svg" alt="">
+                                <h2 class="header__name">Game</h2>
+                            </div>
+                            <div class="header__right">
+                                <nav class="nav" id="nav">
+                                    <div class="nav__item" data-scroll="#popular">
+                                        <a href="#" class="nav__link active">Popular</a>
+                                    </div>
+                                    <div class="nav__item" data-scroll="#bundles">
+                                        <a href="#" class="nav__link">Bundles</a>
+                                    </div>
+                                    <div class="nav__item" data-scroll="#register">
+                                        <a href="#" class="nav__link">Register</a>
+                                    </div>
+                                    <div class="nav__item" data-scroll="#why">
+                                        <a href="#" class="nav__link">Why us</a>
+                                    </div>
+                                </nav>
+                                <button class="burger" type="button" id="nav--toggle">
+                                    <span class="burger__item">Menu</span> 
+                                </button>
+                            </div>
+                        </div>
+                        <div class="contacts">
+                            <div class="contacts__item">
+                                <img class="contacts__icon" src="img/location.svg" alt="">
+                                <a href="https://goo.gl/maps/SWJUKaaXyyn9ey7t7" class="contacts__text" target="_blank">Ankara, Turkey</a>
+                            </div>
+                            <div class="contacts__item">
+                                <img class="contacts__icon" src="img/email.svg" alt="">
+                                <a href="#" class="contacts__text">contact @websitename.com</a>
+                            </div>
+                        </div>
+                </header>
+                <div class="container">
+                        <div class="intro__offer" id="register">
+                            <h1 class="intro__title">Pick the best Video Games on your website</h1>
+                            <h1 class="intro__title">We have gathered the best offerst for you!</h1>
+                            <h3 class="intro__description"> In order to make purchase you need to be a registred member</h3>
+                            <div class="form">
+                                <form action="#" class="form-box" id="form" name='form'>
+                                    <img class="form__img" src="img/logo.svg" alt="">
+                                    <input class="form__input _req" id="formName" type="text" name="name"  placeholder="Name" >
+                                    <input class="form__input _req _email" id="formEmail" type="text" name="email"  placeholder="Email">
+                                    <button  class="button__register " type="submit" data-modal="modal">
+                                        <span>Register</span>    </button>
+                                        <h3 class="form__text">*provided information will not be disclosed to third parties</h3>
+                                    </form>
+                                    
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    <section class="popular" id="popular">
+        <h1 class="title">The Most Popular</h1>
+        <div class="container">
+            <div class="popular__inner">
+                <div class="popular__item">
+                    <img src="img/popular-1.jpeg" alt="" class="popular__img">
+                    <h3 class="popular__title">Far Cry 5</h3>
+                    <h3 class="popular__price">610 TL</h3>
+                    <button type="button" class="button__register-popular back-to-top">
+                        <a href="#">
+                            <img class="button__icon" src="img/basket.svg" alt="">
+                        </a>
+                    </button>
+                </div>
+                <div class="popular__item">
+                    <img src="img/popular-2.webp" alt="" class="popular__img">
+                    <h3 class="popular__title">Outsiders</h3>
+                    <h3 class="popular__price">404 TL</h3>
+                    <button type="button" class="button__register-popular back-to-top">
+                        <a href="#">
+                            <img class="button__icon" src="img/basket.svg" alt="">
+                        </a>
+                    </button>
+                </div>
+                <div class="popular__item">
+                    <img src="img/popular-3.webp" alt="" class="popular__img">
+                    <h3 class="popular__title">Assasins Creed Odyssey</h3>
+                    <h3 class="popular__price">620 TL</h3>
+                    <button type="button" class="button__register-popular back-to-top">
+                        <a href="#">
+                            <img class="button__icon" src="img/basket.svg" alt="">
+                        </a>
+                    </button>
+                </div>
+                <div class="popular__item">
+                    <img src="img/popular-4.webp" alt="" class="popular__img">
+                    <h3 class="popular__title">Scarlet Nexus</h3>
+                    <h3 class="popular__price">518 TL</h3>
+                    <button type="button" class="button__register-popular back-to-top">
+                        <img class="button__icon" src="img/basket.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bundles" id="bundles">
+        <h1 class="title">Bundles Offers</h1>
+        <div class="container">
+            <div class="bundles__inner">
+                <div class="bundles__item">
+                    <a href="#">
+                        <img src="img/bundles-1.webp" alt="" class="bundles__img">
+                    </a>
+                    <div class="bundles__plus">+</div>
+                    <a href="#">
+                        <img src="img/bundles-2.webp" alt="" class="bundles__img">
+                    </a>
+                    <img src="img/arrow.svg" alt="" class="bundles__arrow">
+                    <div class="bundles__price">
+                        <h3 class="bundles__oldPrice"><span class="bundles__line"></span> 912 TL</h3>
+                        <h3 class="bundles__newPrice">704 TL</h3>
+                    </div>
+                    <button type="button" class="button__register-bundles back-to-top">
+                        <img class="button__icon" src="img/basket.svg" alt="">
+                    </button>
+                </div>
+                <div class="bundles__item">
+                    <a href="#">
+                        <img src="img/bundles-3.webp" alt="" class="bundles__img">
+                    </a>
+                    <div class="bundles__plus">+</div>
+                    <a href="#">
+                        <img src="img/bundles-4.webp" alt="" class="bundles__img">
+                    </a>
+                    <img src="img/arrow.svg" alt="" class="bundles__arrow">
+                    <div class="bundles__price">
+                        <h3 class="bundles__oldPrice"><span class="bundles__line"></span> 725 TL</h3>
+                        <h3 class="bundles__newPrice">600 TL</h3>
+                    </div>
+                    <button type="button" class="button__register-bundles back-to-top">
+                        <img class="button__icon" src="img/basket.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="why" id="why">
+        <h1 class="title">why Choose us</h1>
+            <div class="container">
+                <div class="why__content">
+                    <ul class="why__list">
+                        <div class="why__item"> <span class="why__point"> </span> <li class="why__text">Instant delivery of digital game keys per email</li> </div>
+                        <div class="why__item"> <span class="why__point"> </span> <li class="why__text">Advanced user protection</li> </div>
+                        <div class="why__item"> <span class="why__point"> </span> <li class="why__text">Regular special and promo offers</li> </div>
+                        <div class="why__item"> <span class="why__point"> </span> <li class="why__text">Great variety of discounted bundle offers</li> </div>
+                    </ul>
+                    <ul class="why__list">
+                        <div class="why__item"> <span class="why__point"></span> <li class="why__text">Convenient platform navigation</li> </div>
+                        <div class="why__item"> <span class="why__point"></span> <li class="why__text">Excellent gaming community you can become a part of</li> </div>
+                        <div class="why__item"> <span class="why__point"></span> <li class="why__text">Amazing loyalty program for frequent users</li> </div>
+                        <div class="why__item"> <span class="why__point"></span> <li class="why__text">Outstanding user experience – use our platform on any device</li> </div>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <div class="overlay js-overlay-thank-you">
+        <div class="popup js-thank-you">
+            <h2>Thank you for joining us. Please complete registration by following the steps sent to your email address.</h2>
+            <div class="close-popup js-close-thank-you"></div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+</body>
+<footer class="footer">
+    <div class="footer__inner">
+        <span class="footer__line"></span>
+        <h3 class="footer__text">2021 © Websitename. All Rights Reserved </h3>
+    </div>
+</footer>
+</html>
